@@ -4,20 +4,24 @@ body{
     box-sizing: border-box;
 }
 
+.logo{
+    text-shadow: 1px 1px 3px red;
+}
+
 .container{
-    border: 1px solid red;
+    border: 1px solid none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .box{
-    border: 1px solid green;
+    border: 1px solid none;
 }
 
 ul{
     display: flex;
-    border: 1px solid yellow;
+    border: 1px solid none;
     list-style: none;
 }
 
@@ -25,6 +29,13 @@ li{
     border: 1px solid none;
     margin: 0 20px;
     padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+li:hover{
+    /* background-color: orange; */
+    box-shadow: 1px 1px 3px red;
 }
 
 .register-btn{
@@ -36,4 +47,63 @@ li{
 .login-btn{
     border: 2px solid blue;
     border-radius: 20px;
+}
+
+.main-page{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.IIb_BSoyHscnEFplCy1niQHaEK&pid=Api&P=0&h=180");
+    border: 1px solid none;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.findjob{
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 55px;
+    text-shadow: 2px 2px 4px orangered;
+}
+
+.blankbox{
+    height: 50px;
+    width: 700px;
+    background-color: #fff;
+    justify-self: center;
+    border-radius: 25px;
+    border: 1px solid red;
+}
+
+input{
+    padding: 10px 70px;
+    position: absolute;
+    top: 347px;
+    left: 420px;
+    width: 400px;
+    border: none;
+    outline: none;
+}
+
+input:hover{
+    border: red;
+}
+
+i{
+    z-index: 2;
+    color: #9b1515;
+    position: absolute;
+    top: 355px;
+    left: 447px;
+    font-size: 25px;
+}
+
+#search-btn{
+    /* width: 60px; */
+    padding: 10px 22px;
+    position: absolute;
+    top: 330px;
+    left: 990px;
+    cursor: pointer;
+    border: 1px solid red;
 }
