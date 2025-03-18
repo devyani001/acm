@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box{
+    border: 1px solid green;
+}
+
+ul{
+    display: flex;
+    border: 1px solid yellow;
+    list-style: none;
+}
+
+li{
+    border: 1px solid none;
+    margin: 0 20px;
+    padding: 10px 15px;
+}
+
+.register-btn{
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+}
+
+.login-btn{
+    border: 2px solid blue;
+    border-radius: 20px;
+}
